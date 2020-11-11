@@ -10,7 +10,7 @@ app.use(express.static("src"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const csvFilePath = "https://easyupload.io/pl4zpj";
+const csvFilePath = "https://srv-store6.gofile.io/download/MsOBqf/sample.csv";
 const csv = require("csvtojson");
 csv()
   .fromFile(csvFilePath)
